@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://composer.typo3.org/"
+        }
+    ],
+    "name": "aoe/typo3-cms-unittest-distribution",
+    "description": "AOE - TYPO3 CMS Unit-Test Distribution",
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin"
+    },
+    "require": {
+        "typo3/cms": "6.2.*"
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "1.3.*@dev",
+        "phpunit/phpunit": "~4.4.0",
+        "twbs/bootstrap": "3.3.*",
+        "fortawesome/font-awesome": "4.2.*"
+    }
+}
